@@ -127,7 +127,7 @@ else:
    st.write('Shape of predictors @ X variables :', X.shape)
    st.write('Summary of predictors @ X variables:', pd.DataFrame(X).describe())
 
-st.write("## 2: Summary (y variable)")
+st.write("## 2: Summary (y variable)") #step 2
 
 if len(y)==0:
    st.write("<font color='Aquamarine'>Note: Label @ y variable has not been selected.</font>", unsafe_allow_html=True)

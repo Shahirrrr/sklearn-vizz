@@ -118,7 +118,7 @@ test_data_ratio = st.sidebar.slider('Select testing size or ratio',
                                     value=0.2)
 random_state = st.sidebar.slider('Select random state', 1, 9999,value=1234)
 
-st.write("## 1: Summary (X variables)")
+st.write("## 1: Summary (X variables)") #step 1
 
 
 if len(X)==0:
